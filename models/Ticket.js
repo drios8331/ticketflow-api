@@ -4,6 +4,7 @@ const ticketSchema = new mongoose.Schema({
   title: { type: String, required: true },
   namePerson: { type: String, required: true },
   description: { type: String },
+  management: { type: String },
   status: {
     type: String,
     default: "Abierto",
